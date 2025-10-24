@@ -53,6 +53,9 @@ numero_usuario = int(input("Primer intento: "))
 
 
 while incorrecto and contador -1 < 4:
+
+    if numero_usuario > 50:
+        numero_usuario = int(input("¡Ingrese un número válido! "))
     
     if numero_usuario > numero_secreto:
         contador += 1
