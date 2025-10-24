@@ -52,7 +52,7 @@ print("Adivine el número correcto entre 1 y 50. Tiene cinco intentos")
 numero_usuario = int(input("Primer intento: "))
 
 
-while incorrecto and contador -1 <= 5:
+while incorrecto and contador -1 < 4:
     
     if numero_usuario > numero_secreto:
         contador += 1
